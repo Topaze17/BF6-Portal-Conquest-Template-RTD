@@ -1,9 +1,9 @@
 {
-    "name": "bf6-portal-scripting-template",
-    "experienceName": "Scripting Template",
-    "version": "1.7.0",
+    "name": "bf6portalconquesttemplate",
+    "experienceName": "BF6 Portal Conquest Template RTD",
+    "version": "0.8.4",
     "type": "module",
-    "description": "Scripting template for Battlefield 6 Portal (use \"Use this template\" on GitHub to create a new project)",
+    "description": "",
     "engines": {
         "node": ">=24.0.0"
     },
@@ -24,7 +24,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/deluca-mike/bf6-portal-scripting-template.git"
+        "url": "git+https://github.com/Topaze17/BF6-Portal-Conquest-Template-RTD.git"
     },
     "keywords": [
         "template",
@@ -33,12 +33,12 @@
         "battlefield-6",
         "bf6"
     ],
-    "author": "Michael De Luca",
+    "author": "Topaze17",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/deluca-mike/bf6-portal-scripting-template/issues"
+        "url": "https://github.com/Topaze17/BF6-Portal-Conquest-Template-RTD/issues"
     },
-    "homepage": "https://github.com/deluca-mike/bf6-portal-scripting-template#readme",
+    "homepage": "https://github.com/Topaze17/BF6-Portal-Conquest-Template-RTD#readme",
     "devDependencies": {
         "@bf6mods/portal": "^1.1.0",
         "@clack/prompts": "^1.0.1",
@@ -56,5 +56,6 @@
         "ts-node": "^10.9.2",
         "typescript": "^5.9.3",
         "typescript-eslint": "^8.56.0"
-    }
+    },
+    "templateVersion": "1.7.0"
 }

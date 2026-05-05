@@ -51,3 +51,16 @@ export function showEventGameModeMessage(event: mod.Message, target?: mod.Player
 
     Timers.setTimeout(() => text.delete(), 6_000);
 }
+//----------Utility Class------------------//
+export class DefaultMap<K, V> extends Map<K, V> {
+  constructor(private defaultFactory: () => V, entries?: Iterable<readonly [K, V]>) {
+    super(entries);
+  }
+
+  override get(key: K): V {
+    if (!this.has(key)) {
+      this.set(key, this.defaultFactory());
+    }
+    return super.get(key)!;
+  }
+}

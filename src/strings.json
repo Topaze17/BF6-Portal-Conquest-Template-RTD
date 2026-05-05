@@ -1,34 +1,3 @@
 {
-    "template": {
-        "debug": {
-            "buttons": {
-                "spawnHelicopter": "Spawn Helicopter",
-                "spawnGolfCart": "Spawn Golf Cart"
-            }
-        },
-        "notifications": {
-            "deployed": "You are {}",
-            "deployedOnMap": "You are {} on {}"
-        },
-        "maps": {
-            "Area 22B": "Area 22B",
-            "Blackwell Fields": "Blackwell Fields",
-            "Defense Nexus": "Defense Nexus",
-            "Downtown": "Downtown",
-            "Eastwood": "Eastwood",
-            "Empire State": "Empire State",
-            "Golf Course": "Golf Course",
-            "Iberian Offensive": "Iberian Offensive",
-            "Liberation Peak": "Liberation Peak",
-            "Manhattan Bridge": "Manhattan Bridge",
-            "Marina": "Marina",
-            "Mirak Valley": "Mirak Valley",
-            "New Sobek City": "New Sobek City",
-            "Operation Firestorm": "Operation Firestorm",
-            "Portal Sandbox Marina": "Portal Sandbox Marina",
-            "Redline Storage": "Redline Storage",
-            "Saints Quarter": "Saints Quarter",
-            "Siege of Cairo": "Siege of Cairo"
-        }
-    }
-}
+   "flagKeys": {"A": "A", "B": "B", "C": "C", "D": "D", "E": "E", "F": "F", "G": "G", "H": "H", "I": "I", "J": "J", "K": "K", "L": "L", "M": "M", "N": "N", "O": "O", "P": "P", "Q": "Q", "R": "R", "S": "S", "T": "T", "U": "U", "V": "V", "W": "W", "X": "X", "Y": "Y", "Z": "Z"} 
+    ,"letter": "letter", "circle_outline": "circle_outline", "circle_inside": "circle_inside", "pt": "\u25cf", "rectangle_outline": "rectangle_outline", "rectangle_inside": "rectangle_inside", "enemy": "enemy", "neutral": "neutral", "ally": "ally", "natoFlags": "nato_flags", "paxFlags": "pax_flags", "score_line_enemy": "score_line_enemy", "score_line_ally": "score_line_enemy", "score_backround_line_enemy": "score_backround_line_enemy", "score_backround_line_ally": "score_backround_line_ally", "score_base_score_num_enemy": "score_base_score_num_enemy", "score_base_score_num_ally": "score_base_score_num_ally", "score_num": "score_num", "score_outline_ally": "score_outline_ally", "score_outline_enemy": "score_outline_enemy", "score_outline_piece": "score_outline_piece", "contest_line": "contest_line", "contest_line_enemy": "contest_line_enemy", "contest_line_ally": "contest_line_ally", "contest_line_num_enemy": "contest_line_num_enemy", "contest_line_num_ally": "contest_line_num_ally", "on_flag_layer": "on_flag_layer", "capture_point_msg": "capture_point_msg", "defending": "DEFENDING", "capturing": "CAPTURING", "neutralazing": "NEUTRALAZING", "empty": "{}"}
